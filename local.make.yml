@@ -22,6 +22,8 @@ projects:
     type: module
     version: "1.1"
     subdir: "contrib"
+    patch:
+      - "https://www.drupal.org/files/issues/drush_integration-2770115-2.patch"
 
   registry_rebuild:
     type: module
